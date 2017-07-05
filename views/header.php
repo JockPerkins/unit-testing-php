@@ -15,7 +15,7 @@
         if($page == 'home'){
           echo "<li><a class='".$active."' href='/'>".ucwords($page)."</a></li>";
         } else {
-          echo "<li><a class='".$active."' href='/?page=".$page."'>Home</a></li>";
+          echo "<li><a class='".$active."' href='/?page=".$page."'>".ucwords($page)."</a></li>";
         }
       }
       ?>
