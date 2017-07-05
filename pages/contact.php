@@ -17,7 +17,7 @@
     </div>
     <div class="form-right">
       <div class="form-container">
-        <label for="message">Message</label>
+        <label class="text-label" for="message">Message</label>
         <textarea name="message" id="message"></textarea>
       </div>
       <div class="form-container">
