@@ -20,5 +20,8 @@
         <label for="message">Message</label>
         <textarea name="message" id="message"></textarea>
       </div>
+      <div class="form-container">
+        <input type="submit" class="btn" value="Submit" />
+      </div>
     </div>
 </div>
