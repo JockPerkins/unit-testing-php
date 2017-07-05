@@ -4,7 +4,7 @@ require('views/header.php');
 
 $pageList = array('home', 'about', 'contact');
 
-// Get main view name
+// Decide which view to serve
 if(in_array($_GET['page'], $pageList)){
   $thisPage = $_GET['page'];
 } else {

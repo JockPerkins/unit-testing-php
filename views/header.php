@@ -3,8 +3,8 @@
     <img src="http://www.placehold.it/100x50" />
   </div>
   <ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Contact</li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/?page=about">About</a></li>
+    <li><a href="/?page=contact">Contact</a></li>
   </ul>
 </div>
