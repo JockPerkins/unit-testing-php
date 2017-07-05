@@ -1,6 +1,6 @@
 <div id="header">
   <div id="logo">
-    <img src="http://www.placehold.it/100/50" />
+    <img src="http://www.placehold.it/100x50" />
   </div>
   <ul>
     <li>Home</li>

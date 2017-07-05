@@ -2,11 +2,17 @@
 // Drop header in
 require('views/header.php');
 
+$pageList = array('home', 'about', 'contact');
+
 // Get main view name
-if($_GET['page'] != ''){
+if(in_array($_GET['page'], $pageList)){
   $thisPage = $_GET['page'];
 } else {
-  $thisPage = 'home';
+  if($_GET['page'] == ''){
+    $thisPage = 'home';
+  } else {
+    $thisPage = '404';
+  }
 }
 
 // Drop main view in
