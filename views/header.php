@@ -1,12 +1,24 @@
 <div id="header">
   <div class="container">
-    <div id="logo">
-      <img src="http://www.placehold.it/100x50" />
-    </div>
+    <img id="logo" src="http://www.placehold.it/100x50" />
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/?page=about">About</a></li>
-      <li><a href="/?page=contact">Contact</a></li>
+      <?php
+      $pageList = array('home', 'about', 'contact');
+      foreach($pageList as $page){
+        if($page == $_GET['page']){
+          $active = 'active';
+        } elseif($page == 'home' && $_GET['page'] == ''){
+          $active = 'active';
+        } else {
+          $active = '';
+        }
+        if($page == 'home'){
+          echo "<li><a class='".$active."' href='/'>".ucwords($page)."</a></li>";
+        } else {
+          echo "<li><a class='".$active."' href='/?page=".$page."'>Home</a></li>";
+        }
+      }
+      ?>
     </ul>
   </div>
 </div>
