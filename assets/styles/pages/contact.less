@@ -1,26 +1,40 @@
 #contact {
+  padding: 70px 0;
+
   h1 {
 
   }
   form {
     .form-left{
-
+      width: 30%;
+      display: inline-block;
+      margin-right: 10%;
     }
     .form-right {
-      
+      width: 60%;
+      display: inline-block;
     }
     .form-container {
       label {
 
       }
       input[type='text'] {
-
+        float: right;
       }
       textarea {
-
+        width: 100%;
       }
       .btn {
+        padding: 20px 5px;
+        background-color: darkblue;
+        border: 2px solid darkblue;
+        color: white;
 
+        &:hover{
+          background-color: transparent;
+          color: darkblue;
+          transition: all 0.5s;
+        }
       }
     }
   }
