@@ -1,7 +1,13 @@
 <html>
   <head>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- BASE STYLES AND SCRIPTS -->
     <link rel="stylesheet" href="assets/styles.css" />
     <script type="text/javascript" src="assets/scripts.js"></script>
+    <!-- PAGE TITLE -->
     <title>PHP Unit Testing</title>
   </head>
 
